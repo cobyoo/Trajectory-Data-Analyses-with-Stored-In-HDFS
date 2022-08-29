@@ -1,0 +1,46 @@
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.{SparkConf, SparkContext}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.rdd.RDD // RDD 형식 파일[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.hadoop.fs.{FileSystem, Path, FileStatus} //hadoop FileSystem API[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:6:12: object json is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.json.JSONObject //java maven[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:9:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:10:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{SaveMode,Dataset,Row,SparkSession}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:12:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.hadoop.fs._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:13:12: object json4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.json4s.jackson.Serialization[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:20:24: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m        val conf = new SparkConf().setMaster("yarn").setAppName("My App") //tset yarn[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:21:22: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m        val sc = new SparkContext(conf)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:85:82: not found: type RDD[0m
+[0m[[0m[31merror[0m] [0m[0m    def data_process (trajectory_hadoop_file_path : String, sc : SparkContext) : RDD[String] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:85:66: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m    def data_process (trajectory_hadoop_file_path : String, sc : SparkContext) : RDD[String] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:32:34: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0m        val sqlContext = new org.apache.spark.sql.SQLContext(sc)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:35:18: not found: value FileSystem[0m
+[0m[[0m[31merror[0m] [0m[0m        val fs = FileSystem.get(sc.hadoopConfiguration)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dblab/ysh/pipe_processing/src/main/scala/processing/map_test2.scala:116:38: not found: type JSONObject[0m
+[0m[[0m[31merror[0m] [0m[0m            val whole_json_obj = new JSONObject(body)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m
