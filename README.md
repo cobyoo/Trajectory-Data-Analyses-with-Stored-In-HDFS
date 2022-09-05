@@ -1,9 +1,10 @@
 # Data_Road_Processing
 
-
+![image](https://user-images.githubusercontent.com/39446946/188360771-d8fc3177-9a7d-4536-b496-ccaaa51eac0e.png)
 
 ## Index
 - [Experiment Environment](#Experiment-Environment)
+- [Requirements](#Requirements)
 
 ## Experiment Environment
     - Master 1 Unit Node
@@ -24,7 +25,14 @@
         - Spark :  3.1.1
         - Hadoop : 3.2.2
 
-mvn package
+## Requirements
+        1    for(record <- hdfs_path_point_data)
+        2              val point_data_dict = flatMap[String,String]()
+        3              if (record("INSERT INTO"))     
+        4                     record = record.stringcut()
+        5                     val trajectory_list = recode.split(delimiter)
+        6                     map(trajectory <- trajectoryt_list)
+        7                           val sql_str = trajectory.split(delimiter)
+        8                           point_data_dict(key: begin time + uuid(in sql_str)) = value : point_list
 
-## Dependencies
 
