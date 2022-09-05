@@ -1,4 +1,4 @@
-# Data_Road_Processing
+# Extract required trajectory data from data stored in HDFS
 
 ![image](https://user-images.githubusercontent.com/39446946/188360771-d8fc3177-9a7d-4536-b496-ccaaa51eac0e.png)
 
