@@ -24,7 +24,7 @@
         - Memory : DDR4, 500GB
         - Spark :  3.1.1
         - Hadoop : 3.2.2
-## Requirements
+
 ## Requirements
         1    for(record <- hdfs_path_point_data)
         2              val point_data_dict = flatMap[String,String]()
