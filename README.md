@@ -1,4 +1,4 @@
-# Trajectory-Data-Analyses-with-Stored-In-HDFS
+# HDFS에 저장된 궤적 데이터 분석 및 배포 
 
 ![image](https://user-images.githubusercontent.com/39446946/188360771-d8fc3177-9a7d-4536-b496-ccaaa51eac0e.png)
 
